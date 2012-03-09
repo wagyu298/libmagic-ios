@@ -1,0 +1,64 @@
+libmagic for iOS.
+
+
+Usage
+=====
+
+1. Download source code from Github.
+
+2. Open magic/magic.xcodeproj on Xcode.
+
+3. Build static library libmagic.a.
+
+4. Close the project. (Recommended, Xcode cause problem when drag and drop opened static library project)
+
+5. Drag magic/magic.xcodeproj on Fineder and drop it to your iOS application project on Xcode.
+
+6. Copy magic file in libmagic.a to your project.
+
+7. Modify source, add magic_ios_compile call at didFinishLaunchingWithOptions of AppDelegate.m.
+
+    - (BOOL)application:(UIApplication *)application
+      didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+    {
+        @synchronized(self) {
+            magic_ios_compile();
+        }
+        // ...
+    }
+
+8. Use libmagic.
+
+    magic_t magic = magic_open(MAGIC_NONE);
+    magic_load(magic, NULL);
+    const char *filetype = magic_file(magic, path_of_file);
+    NSLog(@"file type is %s", filetype);
+    magic_close(magic);
+
+
+Using patch
+===========
+
+1. Download file-5.11.tar.gz from http://darwinsys.com/file/.
+
+2. Extract tarball.
+
+3. Apply file-5.11-ios.diff
+
+    cd file-5.11
+    patch -p1 < ../libmagic-ios/file-5.11-ios.diff
+
+4. Build with ios make target.
+
+    configure
+    make ios
+
+5. Check ios subdirectory.
+
+
+License
+=======
+
+libmagic-ios follows the license of file package, it licensed under
+modified BSD license.
+See http://darwinsys.com/file/ for more details.

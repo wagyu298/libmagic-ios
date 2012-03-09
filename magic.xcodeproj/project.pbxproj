@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A32EDDA31509100100A1A15B /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = A32EDDA21509100100A1A15B /* config.h */; };
+		A3BE8C5E1509064500291852 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BE8C5D1509064500291852 /* Foundation.framework */; };
+		A3BE8C831509067200291852 /* apprentice.c in Sources */ = {isa = PBXBuildFile; fileRef = A3BE8C6A1509067200291852 /* apprentice.c */; };
+		A3BE8C841509067200291852 /* apptype.c in Sources */ = {isa = PBXBuildFile; fileRef = A3BE8C6B1509067200291852 /* apptype.c */; };
+		A3BE8C851509067200291852 /* ascmagic.c in Sources */ = {isa = PBXBuildFile; fileRef = A3BE8C6C1509067200291852 /* ascmagic.c */; };
+		A3BE8C861509067200291852 /* cdf_time.c in Sources */ = {isa = PBXBuildFile; fileRef = A3BE8C6D1509067200291852 /* cdf_time.c */; };
+		A3BE8C871509067200291852 /* cdf.c in Sources */ = {isa = PBXBuildFile; fileRef = A3BE8C6E1509067200291852 /* cdf.c */; };
+		A3BE8C881509067200291852 /* cdf.h in Headers */ = {isa = PBXBuildFile; fileRef = A3BE8C6F1509067200291852 /* cdf.h */; };
+		A3BE8C891509067200291852 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = A3BE8C701509067200291852 /* compress.c */; };
+		A3BE8C8A1509067200291852 /* elfclass.h in Headers */ = {isa = PBXBuildFile; fileRef = A3BE8C711509067200291852 /* elfclass.h */; };
+		A3BE8C8B1509067200291852 /* encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = A3BE8C721509067200291852 /* encoding.c */; };
+		A3BE8C8C1509067200291852 /* file.h in Headers */ = {isa = PBXBuildFile; fileRef = A3BE8C731509067200291852 /* file.h */; };
+		A3BE8C8D1509067200291852 /* fsmagic.c in Sources */ = {isa = PBXBuildFile; fileRef = A3BE8C741509067200291852 /* fsmagic.c */; };
+		A3BE8C8E1509067200291852 /* funcs.c in Sources */ = {isa = PBXBuildFile; fileRef = A3BE8C751509067200291852 /* funcs.c */; };
+		A3BE8C901509067200291852 /* is_tar.c in Sources */ = {isa = PBXBuildFile; fileRef = A3BE8C771509067200291852 /* is_tar.c */; };
+		A3BE8C911509067200291852 /* magic.c in Sources */ = {isa = PBXBuildFile; fileRef = A3BE8C781509067200291852 /* magic.c */; };
+		A3BE8C921509067200291852 /* magic.h in Headers */ = {isa = PBXBuildFile; fileRef = A3BE8C791509067200291852 /* magic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3BE8C941509067200291852 /* magicios.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BE8C7C1509067200291852 /* magicios.m */; };
+		A3BE8C951509067200291852 /* print.c in Sources */ = {isa = PBXBuildFile; fileRef = A3BE8C7D1509067200291852 /* print.c */; };
+		A3BE8C961509067200291852 /* readcdf.c in Sources */ = {isa = PBXBuildFile; fileRef = A3BE8C7E1509067200291852 /* readcdf.c */; };
+		A3BE8C971509067200291852 /* readelf.c in Sources */ = {isa = PBXBuildFile; fileRef = A3BE8C7F1509067200291852 /* readelf.c */; };
+		A3BE8C981509067200291852 /* readelf.h in Headers */ = {isa = PBXBuildFile; fileRef = A3BE8C801509067200291852 /* readelf.h */; };
+		A3BE8C991509067200291852 /* softmagic.c in Sources */ = {isa = PBXBuildFile; fileRef = A3BE8C811509067200291852 /* softmagic.c */; };
+		A3BE8C9A1509067200291852 /* tar.h in Headers */ = {isa = PBXBuildFile; fileRef = A3BE8C821509067200291852 /* tar.h */; };
+		A3BE8C9C1509069D00291852 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BE8C9B1509069D00291852 /* libz.dylib */; };
+		A3BE8C9E150906A200291852 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BE8C9D150906A200291852 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A32EDDA21509100100A1A15B /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		A3BE8C5A1509064500291852 /* libmagic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmagic.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3BE8C5D1509064500291852 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A3BE8C611509064500291852 /* magic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "magic-Prefix.pch"; sourceTree = "<group>"; };
+		A3BE8C6A1509067200291852 /* apprentice.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = apprentice.c; sourceTree = "<group>"; };
+		A3BE8C6B1509067200291852 /* apptype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = apptype.c; sourceTree = "<group>"; };
+		A3BE8C6C1509067200291852 /* ascmagic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ascmagic.c; sourceTree = "<group>"; };
+		A3BE8C6D1509067200291852 /* cdf_time.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cdf_time.c; sourceTree = "<group>"; };
+		A3BE8C6E1509067200291852 /* cdf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cdf.c; sourceTree = "<group>"; };
+		A3BE8C6F1509067200291852 /* cdf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cdf.h; sourceTree = "<group>"; };
+		A3BE8C701509067200291852 /* compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = compress.c; sourceTree = "<group>"; };
+		A3BE8C711509067200291852 /* elfclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = elfclass.h; sourceTree = "<group>"; };
+		A3BE8C721509067200291852 /* encoding.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = encoding.c; sourceTree = "<group>"; };
+		A3BE8C731509067200291852 /* file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file.h; sourceTree = "<group>"; };
+		A3BE8C741509067200291852 /* fsmagic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fsmagic.c; sourceTree = "<group>"; };
+		A3BE8C751509067200291852 /* funcs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = funcs.c; sourceTree = "<group>"; };
+		A3BE8C771509067200291852 /* is_tar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = is_tar.c; sourceTree = "<group>"; };
+		A3BE8C781509067200291852 /* magic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = magic.c; sourceTree = "<group>"; };
+		A3BE8C791509067200291852 /* magic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = magic.h; sourceTree = "<group>"; };
+		A3BE8C7A1509067200291852 /* magic */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = magic; sourceTree = "<group>"; };
+		A3BE8C7C1509067200291852 /* magicios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = magicios.m; sourceTree = "<group>"; };
+		A3BE8C7D1509067200291852 /* print.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = print.c; sourceTree = "<group>"; };
+		A3BE8C7E1509067200291852 /* readcdf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = readcdf.c; sourceTree = "<group>"; };
+		A3BE8C7F1509067200291852 /* readelf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = readelf.c; sourceTree = "<group>"; };
+		A3BE8C801509067200291852 /* readelf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = readelf.h; sourceTree = "<group>"; };
+		A3BE8C811509067200291852 /* softmagic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = softmagic.c; sourceTree = "<group>"; };
+		A3BE8C821509067200291852 /* tar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tar.h; sourceTree = "<group>"; };
+		A3BE8C9B1509069D00291852 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A3BE8C9D150906A200291852 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3BE8C571509064500291852 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3BE8C5E1509064500291852 /* Foundation.framework in Frameworks */,
+				A3BE8C9E150906A200291852 /* UIKit.framework in Frameworks */,
+				A3BE8C9C1509069D00291852 /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3BE8C4F1509064500291852 = {
+			isa = PBXGroup;
+			children = (
+				A3BE8C5F1509064500291852 /* magic */,
+				A3BE8C5C1509064500291852 /* Frameworks */,
+				A3BE8C5B1509064500291852 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3BE8C5B1509064500291852 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3BE8C5A1509064500291852 /* libmagic.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3BE8C5C1509064500291852 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3BE8C5D1509064500291852 /* Foundation.framework */,
+				A3BE8C9D150906A200291852 /* UIKit.framework */,
+				A3BE8C9B1509069D00291852 /* libz.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3BE8C5F1509064500291852 /* magic */ = {
+			isa = PBXGroup;
+			children = (
+				A3BE8C6A1509067200291852 /* apprentice.c */,
+				A3BE8C6B1509067200291852 /* apptype.c */,
+				A3BE8C6C1509067200291852 /* ascmagic.c */,
+				A3BE8C6D1509067200291852 /* cdf_time.c */,
+				A3BE8C6E1509067200291852 /* cdf.c */,
+				A3BE8C6F1509067200291852 /* cdf.h */,
+				A3BE8C701509067200291852 /* compress.c */,
+				A32EDDA21509100100A1A15B /* config.h */,
+				A3BE8C711509067200291852 /* elfclass.h */,
+				A3BE8C721509067200291852 /* encoding.c */,
+				A3BE8C731509067200291852 /* file.h */,
+				A3BE8C741509067200291852 /* fsmagic.c */,
+				A3BE8C751509067200291852 /* funcs.c */,
+				A3BE8C771509067200291852 /* is_tar.c */,
+				A3BE8C781509067200291852 /* magic.c */,
+				A3BE8C791509067200291852 /* magic.h */,
+				A3BE8C7A1509067200291852 /* magic */,
+				A3BE8C7C1509067200291852 /* magicios.m */,
+				A3BE8C7D1509067200291852 /* print.c */,
+				A3BE8C7E1509067200291852 /* readcdf.c */,
+				A3BE8C7F1509067200291852 /* readelf.c */,
+				A3BE8C801509067200291852 /* readelf.h */,
+				A3BE8C811509067200291852 /* softmagic.c */,
+				A3BE8C821509067200291852 /* tar.h */,
+				A3BE8C601509064500291852 /* Supporting Files */,
+			);
+			path = magic;
+			sourceTree = "<group>";
+		};
+		A3BE8C601509064500291852 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3BE8C611509064500291852 /* magic-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A3BE8C581509064500291852 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3BE8C921509067200291852 /* magic.h in Headers */,
+				A3BE8C881509067200291852 /* cdf.h in Headers */,
+				A3BE8C8A1509067200291852 /* elfclass.h in Headers */,
+				A3BE8C8C1509067200291852 /* file.h in Headers */,
+				A3BE8C981509067200291852 /* readelf.h in Headers */,
+				A3BE8C9A1509067200291852 /* tar.h in Headers */,
+				A32EDDA31509100100A1A15B /* config.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A3BE8C591509064500291852 /* magic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3BE8C671509064500291852 /* Build configuration list for PBXNativeTarget "magic" */;
+			buildPhases = (
+				A3BE8C561509064500291852 /* Sources */,
+				A3BE8C571509064500291852 /* Frameworks */,
+				A3BE8C581509064500291852 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = magic;
+			productName = magic;
+			productReference = A3BE8C5A1509064500291852 /* libmagic.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3BE8C511509064500291852 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A3BE8C541509064500291852 /* Build configuration list for PBXProject "magic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3BE8C4F1509064500291852;
+			productRefGroup = A3BE8C5B1509064500291852 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3BE8C591509064500291852 /* magic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3BE8C561509064500291852 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3BE8C831509067200291852 /* apprentice.c in Sources */,
+				A3BE8C841509067200291852 /* apptype.c in Sources */,
+				A3BE8C851509067200291852 /* ascmagic.c in Sources */,
+				A3BE8C861509067200291852 /* cdf_time.c in Sources */,
+				A3BE8C871509067200291852 /* cdf.c in Sources */,
+				A3BE8C891509067200291852 /* compress.c in Sources */,
+				A3BE8C8B1509067200291852 /* encoding.c in Sources */,
+				A3BE8C8D1509067200291852 /* fsmagic.c in Sources */,
+				A3BE8C8E1509067200291852 /* funcs.c in Sources */,
+				A3BE8C901509067200291852 /* is_tar.c in Sources */,
+				A3BE8C911509067200291852 /* magic.c in Sources */,
+				A3BE8C941509067200291852 /* magicios.m in Sources */,
+				A3BE8C951509067200291852 /* print.c in Sources */,
+				A3BE8C961509067200291852 /* readcdf.c in Sources */,
+				A3BE8C971509067200291852 /* readelf.c in Sources */,
+				A3BE8C991509067200291852 /* softmagic.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A3BE8C651509064500291852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3BE8C661509064500291852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3BE8C681509064500291852 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/magic.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "magic/magic-Prefix.pch";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "HAVE_CONFIG_H=1";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A3BE8C691509064500291852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/magic.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "magic/magic-Prefix.pch";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "HAVE_CONFIG_H=1";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3BE8C541509064500291852 /* Build configuration list for PBXProject "magic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3BE8C651509064500291852 /* Debug */,
+				A3BE8C661509064500291852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3BE8C671509064500291852 /* Build configuration list for PBXNativeTarget "magic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3BE8C681509064500291852 /* Debug */,
+				A3BE8C691509064500291852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3BE8C511509064500291852 /* Project object */;
+}

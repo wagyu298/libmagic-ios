@@ -29,7 +29,11 @@ project on Xcode.
 6. Copy a magic file in libmagic.a to your project. You can find the magic file
 at magic/magic of libmagic-ios Xcode project.
 
-7. Modify your application source. Add magic_ios_compile function call at
+7. Open your project file (root file of the project) and add
+/YOUR-LIBMAGIC-IOS-PATH/magic/magic to the Header Search Paths of
+the Build Settings.
+
+8. Modify your application source. Add magic_ios_compile function call at
 didFinishLaunchingWithOptions of AppDelegate.m.
 magic_ios_compile function compiled magic file to ~/.magic-ARCH/magic.cnf
 if it is missing (ARCH is the CPU architecture, such as .magic-armv7).
@@ -48,7 +52,7 @@ Be careful, magic_ios_compile function is multi-thread unsafe.
         // ...
     }
 
-8. Use libmagic.
+9. Use libmagic.
 
     magic_t magic = magic_open(MAGIC_NONE);
     magic_load(magic, NULL);
@@ -60,8 +64,8 @@ Omit compiled magic
 ===================
 
 You can use libmagic-ios without the compiled magic file.
-In this case, omit the step 7 of the usage (magic_ios_compile function call
-at didFinishLaunchingWithOptions) and use the result of
+In this case, you can omit the step 8 of the usage (magic_ios_compile
+function call at didFinishLaunchingWithOptions) and use the result of
 magic_ios_get_plain_magic function to the second argument of magic_load.
 
     magic_t magic = magic_open(MAGIC_NONE);

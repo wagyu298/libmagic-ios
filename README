@@ -1,8 +1,18 @@
 libmagic for iOS.
 
 
+Description
+***********
+
+A library part of file(1) for iOS.  (The library also known as libmagic.)
+Based file command (and magic file) was originally written by Ian Darwin
+(who still contributes occasionally) and is now maintained by a group of
+developers lead by Christos Zoulas. See http://darwinsys.com/file/ for more
+details about the file command.
+
+
 Usage
-=====
+*****
 
 1. Download source code from Github.
 
@@ -10,19 +20,30 @@ Usage
 
 3. Build static library libmagic.a.
 
-4. Close the project. (Recommended, Xcode cause problem when drag and drop opened static library project)
+4. Close the project. (Recommended, Xcode cause problem when drag and
+drop opened static library project)
 
-5. Drag magic/magic.xcodeproj on Fineder and drop it to your iOS application project on Xcode.
+5. Drag magic/magic.xcodeproj on Fineder and drop it to your iOS application
+project on Xcode.
 
-6. Copy magic file in libmagic.a to your project.
+6. Copy a magic file in libmagic.a to your project. You can find the magic file
+at magic/magic of libmagic-ios Xcode project.
 
-7. Modify source, add magic_ios_compile call at didFinishLaunchingWithOptions of AppDelegate.m.
+7. Modify your application source. Add magic_ios_compile function call at
+didFinishLaunchingWithOptions of AppDelegate.m.
+magic_ios_compile function compiled magic file to ~/.magic-ARCH/magic.cnf
+if it is missing (ARCH is the CPU architecture, such as .magic-armv7).
+Be careful, magic_ios_compile function is multi-thread unsafe.
 
     - (BOOL)application:(UIApplication *)application
       didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
     {
+        static BOOL initialized = NO;
         @synchronized(self) {
-            magic_ios_compile();
+            if (!initialized) {
+                magic_ios_compile();
+                initialized = YES;
+            }
         }
         // ...
     }
@@ -35,9 +56,28 @@ Usage
     NSLog(@"file type is %s", filetype);
     magic_close(magic);
 
+Omit compiled magic
+===================
+
+You can use libmagic-ios without the compiled magic file.
+In this case, omit the step 7 of the usage (magic_ios_compile function call
+at didFinishLaunchingWithOptions) and use the result of
+magic_ios_get_plain_magic function to the second argument of magic_load.
+
+    magic_t magic = magic_open(MAGIC_NONE);
+    magic_load(magic, magic_ios_get_plain_magic());
+    // ...
+
+magic_ios_get_plain_magic function returns the path of bundled plain magic
+file. See magicios.m for more details.
+
 
 Using patch
-===========
+***********
+
+Github repository includes the patch file of libmagic-ios.
+You can generate libmagic-ios Xcode project from the patch file and
+original file utility tarball.
 
 1. Download file-5.11.tar.gz from http://darwinsys.com/file/.
 
@@ -57,7 +97,7 @@ Using patch
 
 
 License
-=======
+*******
 
 libmagic-ios follows the license of file package, it licensed under
 modified BSD license.

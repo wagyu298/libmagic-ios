@@ -26,8 +26,8 @@ drop opened static library project)
 5. Drag magic/magic.xcodeproj on Fineder and drop it to your iOS application
 project on Xcode.
 
-6. Copy a magic file in libmagic.a to your project. You can find the magic file
-at magic/magic of libmagic-ios Xcode project.
+6. Copy `magic' file to your project. You can find the file at magic
+group in libmagic-ios Xcode project.
 
 7. Open your project file (root file of the project), select your application
 on TARGETS section, toggle Build Settings tab and add

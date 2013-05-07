@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		A30FB3BD1739498700A1E9CF /* libmagic.framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A30FB3BE1739498700A1E9CF /* Build configuration list for PBXAggregateTarget "libmagic.framework" */;
+			buildPhases = (
+				A30FB3C11739499E00A1E9CF /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = libmagic.framework;
+			productName = libmagic.framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		A30FB35D1739419700A1E9CF /* magicios.m in Sources */ = {isa = PBXBuildFile; fileRef = A30FB35C1739419700A1E9CF /* magicios.m */; };
+		A30FB3941739438100A1E9CF /* apprentice.c in Sources */ = {isa = PBXBuildFile; fileRef = A30FB3811739438000A1E9CF /* apprentice.c */; };
+		A30FB3951739438100A1E9CF /* apptype.c in Sources */ = {isa = PBXBuildFile; fileRef = A30FB3821739438000A1E9CF /* apptype.c */; };
+		A30FB3961739438100A1E9CF /* ascmagic.c in Sources */ = {isa = PBXBuildFile; fileRef = A30FB3831739438000A1E9CF /* ascmagic.c */; };
+		A30FB3981739438100A1E9CF /* cdf_time.c in Sources */ = {isa = PBXBuildFile; fileRef = A30FB3851739438000A1E9CF /* cdf_time.c */; };
+		A30FB3991739438100A1E9CF /* cdf.c in Sources */ = {isa = PBXBuildFile; fileRef = A30FB3861739438000A1E9CF /* cdf.c */; };
+		A30FB39A1739438100A1E9CF /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = A30FB3881739438000A1E9CF /* compress.c */; };
+		A30FB39B1739438100A1E9CF /* encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = A30FB38A1739438000A1E9CF /* encoding.c */; };
+		A30FB39D1739438100A1E9CF /* fsmagic.c in Sources */ = {isa = PBXBuildFile; fileRef = A30FB38E1739438100A1E9CF /* fsmagic.c */; };
+		A30FB39E1739438100A1E9CF /* funcs.c in Sources */ = {isa = PBXBuildFile; fileRef = A30FB38F1739438100A1E9CF /* funcs.c */; };
+		A30FB3A11739438100A1E9CF /* is_tar.c in Sources */ = {isa = PBXBuildFile; fileRef = A30FB3921739438100A1E9CF /* is_tar.c */; };
+		A30FB3A21739438100A1E9CF /* magic.c in Sources */ = {isa = PBXBuildFile; fileRef = A30FB3931739438100A1E9CF /* magic.c */; };
+		A30FB3AF173943D000A1E9CF /* print.c in Sources */ = {isa = PBXBuildFile; fileRef = A30FB3A6173943D000A1E9CF /* print.c */; };
+		A30FB3B0173943D000A1E9CF /* readcdf.c in Sources */ = {isa = PBXBuildFile; fileRef = A30FB3A7173943D000A1E9CF /* readcdf.c */; };
+		A30FB3B1173943D000A1E9CF /* readelf.c in Sources */ = {isa = PBXBuildFile; fileRef = A30FB3A8173943D000A1E9CF /* readelf.c */; };
+		A30FB3B2173943D000A1E9CF /* softmagic.c in Sources */ = {isa = PBXBuildFile; fileRef = A30FB3AA173943D000A1E9CF /* softmagic.c */; };
+		A30FB3B81739480200A1E9CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30FB3B71739480200A1E9CF /* UIKit.framework */; };
+		A30FB3BA1739480800A1E9CF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A30FB3B91739480800A1E9CF /* libz.dylib */; };
+		A3C08ED61739409700B3435A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C08ED51739409700B3435A /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A3C08ED01739409600B3435A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A30FB35C1739419700A1E9CF /* magicios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = magicios.m; sourceTree = "<group>"; };
+		A30FB35E173942FB00A1E9CF /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		A30FB3811739438000A1E9CF /* apprentice.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = apprentice.c; path = "file-5.11/src/apprentice.c"; sourceTree = SOURCE_ROOT; };
+		A30FB3821739438000A1E9CF /* apptype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = apptype.c; path = "file-5.11/src/apptype.c"; sourceTree = SOURCE_ROOT; };
+		A30FB3831739438000A1E9CF /* ascmagic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ascmagic.c; path = "file-5.11/src/ascmagic.c"; sourceTree = SOURCE_ROOT; };
+		A30FB3851739438000A1E9CF /* cdf_time.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cdf_time.c; path = "file-5.11/src/cdf_time.c"; sourceTree = SOURCE_ROOT; };
+		A30FB3861739438000A1E9CF /* cdf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cdf.c; path = "file-5.11/src/cdf.c"; sourceTree = SOURCE_ROOT; };
+		A30FB3871739438000A1E9CF /* cdf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cdf.h; path = "file-5.11/src/cdf.h"; sourceTree = SOURCE_ROOT; };
+		A30FB3881739438000A1E9CF /* compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = compress.c; path = "file-5.11/src/compress.c"; sourceTree = SOURCE_ROOT; };
+		A30FB3891739438000A1E9CF /* elfclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = elfclass.h; path = "file-5.11/src/elfclass.h"; sourceTree = SOURCE_ROOT; };
+		A30FB38A1739438000A1E9CF /* encoding.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = encoding.c; path = "file-5.11/src/encoding.c"; sourceTree = SOURCE_ROOT; };
+		A30FB38D1739438100A1E9CF /* file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = file.h; path = "file-5.11/src/file.h"; sourceTree = SOURCE_ROOT; };
+		A30FB38E1739438100A1E9CF /* fsmagic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = fsmagic.c; path = "file-5.11/src/fsmagic.c"; sourceTree = SOURCE_ROOT; };
+		A30FB38F1739438100A1E9CF /* funcs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = funcs.c; path = "file-5.11/src/funcs.c"; sourceTree = SOURCE_ROOT; };
+		A30FB3921739438100A1E9CF /* is_tar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = is_tar.c; path = "file-5.11/src/is_tar.c"; sourceTree = SOURCE_ROOT; };
+		A30FB3931739438100A1E9CF /* magic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = magic.c; path = "file-5.11/src/magic.c"; sourceTree = SOURCE_ROOT; };
+		A30FB3A4173943BB00A1E9CF /* magic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = magic.h; path = "file-5.11/src/magic.h"; sourceTree = SOURCE_ROOT; };
+		A30FB3A6173943D000A1E9CF /* print.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = print.c; path = "file-5.11/src/print.c"; sourceTree = SOURCE_ROOT; };
+		A30FB3A7173943D000A1E9CF /* readcdf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = readcdf.c; path = "file-5.11/src/readcdf.c"; sourceTree = SOURCE_ROOT; };
+		A30FB3A8173943D000A1E9CF /* readelf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = readelf.c; path = "file-5.11/src/readelf.c"; sourceTree = SOURCE_ROOT; };
+		A30FB3A9173943D000A1E9CF /* readelf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = readelf.h; path = "file-5.11/src/readelf.h"; sourceTree = SOURCE_ROOT; };
+		A30FB3AA173943D000A1E9CF /* softmagic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = softmagic.c; path = "file-5.11/src/softmagic.c"; sourceTree = SOURCE_ROOT; };
+		A30FB3AD173943D000A1E9CF /* tar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tar.h; path = "file-5.11/src/tar.h"; sourceTree = SOURCE_ROOT; };
+		A30FB3B71739480200A1E9CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A30FB3B91739480800A1E9CF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		A30FB3BB1739496000A1E9CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3C08ED21739409600B3435A /* liblibmagic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = liblibmagic.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3C08ED51739409700B3435A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A3C08ED91739409700B3435A /* libmagic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libmagic-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3C08ECF1739409600B3435A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3C08ED61739409700B3435A /* Foundation.framework in Frameworks */,
+				A30FB3B81739480200A1E9CF /* UIKit.framework in Frameworks */,
+				A30FB3BA1739480800A1E9CF /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A30FB3A31739439500A1E9CF /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				A30FB3A4173943BB00A1E9CF /* magic.h */,
+			);
+			path = Headers;
+			sourceTree = SOURCE_ROOT;
+		};
+		A30FB3B61739455F00A1E9CF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A30FB3BB1739496000A1E9CF /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		A3C08EC91739409600B3435A = {
+			isa = PBXGroup;
+			children = (
+				A3C08ED71739409700B3435A /* libmagic */,
+				A30FB3A31739439500A1E9CF /* Headers */,
+				A30FB3B61739455F00A1E9CF /* Resources */,
+				A3C08ED41739409600B3435A /* Frameworks */,
+				A3C08ED31739409600B3435A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3C08ED31739409600B3435A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3C08ED21739409600B3435A /* liblibmagic.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3C08ED41739409600B3435A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3C08ED51739409700B3435A /* Foundation.framework */,
+				A30FB3B71739480200A1E9CF /* UIKit.framework */,
+				A30FB3B91739480800A1E9CF /* libz.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3C08ED71739409700B3435A /* libmagic */ = {
+			isa = PBXGroup;
+			children = (
+				A30FB35E173942FB00A1E9CF /* config.h */,
+				A30FB35C1739419700A1E9CF /* magicios.m */,
+				A30FB3811739438000A1E9CF /* apprentice.c */,
+				A30FB3821739438000A1E9CF /* apptype.c */,
+				A30FB3831739438000A1E9CF /* ascmagic.c */,
+				A30FB3851739438000A1E9CF /* cdf_time.c */,
+				A30FB3861739438000A1E9CF /* cdf.c */,
+				A30FB3871739438000A1E9CF /* cdf.h */,
+				A30FB3881739438000A1E9CF /* compress.c */,
+				A30FB3891739438000A1E9CF /* elfclass.h */,
+				A30FB38A1739438000A1E9CF /* encoding.c */,
+				A30FB38D1739438100A1E9CF /* file.h */,
+				A30FB38E1739438100A1E9CF /* fsmagic.c */,
+				A30FB38F1739438100A1E9CF /* funcs.c */,
+				A30FB3921739438100A1E9CF /* is_tar.c */,
+				A30FB3931739438100A1E9CF /* magic.c */,
+				A30FB3A6173943D000A1E9CF /* print.c */,
+				A30FB3A7173943D000A1E9CF /* readcdf.c */,
+				A30FB3A8173943D000A1E9CF /* readelf.c */,
+				A30FB3A9173943D000A1E9CF /* readelf.h */,
+				A30FB3AA173943D000A1E9CF /* softmagic.c */,
+				A30FB3AD173943D000A1E9CF /* tar.h */,
+				A3C08ED81739409700B3435A /* Supporting Files */,
+			);
+			path = libmagic;
+			sourceTree = "<group>";
+		};
+		A3C08ED81739409700B3435A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3C08ED91739409700B3435A /* libmagic-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3C08ED11739409600B3435A /* libmagic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3C08EE01739409700B3435A /* Build configuration list for PBXNativeTarget "libmagic" */;
+			buildPhases = (
+				A3C08ECE1739409600B3435A /* Sources */,
+				A3C08ECF1739409600B3435A /* Frameworks */,
+				A3C08ED01739409600B3435A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = libmagic;
+			productName = libmagic;
+			productReference = A3C08ED21739409600B3435A /* liblibmagic.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3C08ECA1739409600B3435A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Masanori Mikawa";
+			};
+			buildConfigurationList = A3C08ECD1739409600B3435A /* Build configuration list for PBXProject "libmagic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A3C08EC91739409600B3435A;
+			productRefGroup = A3C08ED31739409600B3435A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3C08ED11739409600B3435A /* libmagic */,
+				A30FB3BD1739498700A1E9CF /* libmagic.framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A30FB3C11739499E00A1E9CF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nINFOPLIST=\"Resources/Info.plist\"\nFRAMEWORK_NAME=$(/usr/libexec/PlistBuddy -c \"Print CFBundleName\" ${INFOPLIST})\nBUILD_TARGET_NAME=$FRAMEWORK_NAME\nFRAMEWORK_BUILD_CONFIGURATION=\"Release\"\nFRAMEWORK_VERSION_NUMBER=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" ${INFOPLIST})\nFRAMEWORK_VERSION=A\nFRAMEWORK_BUILD_PATH=\"Framework\"\nFRAMEWORK_DIR=\"${FRAMEWORK_BUILD_PATH}/${FRAMEWORK_NAME}.framework\"\nPACKAGENAME=\"${FRAMEWORK_NAME}.framework.${FRAMEWORK_VERSION_NUMBER}.zip\"\n\nxcodebuild -configuration ${FRAMEWORK_BUILD_CONFIGURATION} -target ${BUILD_TARGET_NAME} clean\nxcodebuild -configuration ${FRAMEWORK_BUILD_CONFIGURATION} -target ${BUILD_TARGET_NAME} -sdk iphonesimulator${IPHONEOS_DEPLOYMENT_TARGET}\n[ $? != 0 ] && exit 1\nxcodebuild -configuration ${FRAMEWORK_BUILD_CONFIGURATION} -target ${BUILD_TARGET_NAME} -sdk iphoneos${IPHONEOS_DEPLOYMENT_TARGET}\n[ $? != 0 ] && exit 1\n\n[ -d \"${FRAMEWORK_BUILD_PATH}\" ] && rm -rf \"${FRAMEWORK_BUILD_PATH}\"\nmkdir -p ${FRAMEWORK_DIR}\nmkdir -p ${FRAMEWORK_DIR}/Versions\nmkdir -p ${FRAMEWORK_DIR}/Versions/${FRAMEWORK_VERSION}\nmkdir -p ${FRAMEWORK_DIR}/Versions/${FRAMEWORK_VERSION}/Resources\nmkdir -p ${FRAMEWORK_DIR}/Versions/${FRAMEWORK_VERSION}/Headers\nln -s ${FRAMEWORK_VERSION} ${FRAMEWORK_DIR}/Versions/Current\nln -s Versions/Current/Headers ${FRAMEWORK_DIR}/Headers\nln -s Versions/Current/Resources ${FRAMEWORK_DIR}/Resources\nln -s Versions/Current/${FRAMEWORK_NAME} ${FRAMEWORK_DIR}/${FRAMEWORK_NAME}\n\nlipo -create \\\nbuild/${FRAMEWORK_BUILD_CONFIGURATION}-iphoneos/lib${FRAMEWORK_NAME}.a \\\nbuild/${FRAMEWORK_BUILD_CONFIGURATION}-iphonesimulator/lib${FRAMEWORK_NAME}.a \\\n-o \"${FRAMEWORK_DIR}/Versions/Current/${FRAMEWORK_NAME}\"\n\n(cd file-5.11/magic; cat Header Localstuff Magdir/*) > ${FRAMEWORK_DIR}/Headers/magic\ncp file-5.11/src/magic.h ${FRAMEWORK_DIR}/Headers/\n#cp Headers/* ${FRAMEWORK_DIR}/Headers/\ncp Resources/* ${FRAMEWORK_DIR}/Resources/\ncd ${FRAMEWORK_BUILD_PATH}\nchmod -fR 755 \"${FRAMEWORK_NAME}.framework\"\nzip -ry ${PACKAGENAME} $(basename $FRAMEWORK_DIR)";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3C08ECE1739409600B3435A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30FB35D1739419700A1E9CF /* magicios.m in Sources */,
+				A30FB3941739438100A1E9CF /* apprentice.c in Sources */,
+				A30FB3951739438100A1E9CF /* apptype.c in Sources */,
+				A30FB3961739438100A1E9CF /* ascmagic.c in Sources */,
+				A30FB3981739438100A1E9CF /* cdf_time.c in Sources */,
+				A30FB3991739438100A1E9CF /* cdf.c in Sources */,
+				A30FB39A1739438100A1E9CF /* compress.c in Sources */,
+				A30FB39B1739438100A1E9CF /* encoding.c in Sources */,
+				A30FB39D1739438100A1E9CF /* fsmagic.c in Sources */,
+				A30FB39E1739438100A1E9CF /* funcs.c in Sources */,
+				A30FB3A11739438100A1E9CF /* is_tar.c in Sources */,
+				A30FB3A21739438100A1E9CF /* magic.c in Sources */,
+				A30FB3AF173943D000A1E9CF /* print.c in Sources */,
+				A30FB3B0173943D000A1E9CF /* readcdf.c in Sources */,
+				A30FB3B1173943D000A1E9CF /* readelf.c in Sources */,
+				A30FB3B2173943D000A1E9CF /* softmagic.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A30FB3BF1739498700A1E9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A30FB3C01739498700A1E9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A3C08EDE1739409700B3435A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A3C08EDF1739409700B3435A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3C08EE11739409700B3435A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/libmagic.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libmagic/libmagic-Prefix.pch";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = (
+					"DEBUG=1",
+					"HAVE_CONFIG_H=1",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A3C08EE21739409700B3435A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/libmagic.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "libmagic/libmagic-Prefix.pch";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "HAVE_CONFIG_H=1";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A30FB3BE1739498700A1E9CF /* Build configuration list for PBXAggregateTarget "libmagic.framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A30FB3BF1739498700A1E9CF /* Debug */,
+				A30FB3C01739498700A1E9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3C08ECD1739409600B3435A /* Build configuration list for PBXProject "libmagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3C08EDE1739409700B3435A /* Debug */,
+				A3C08EDF1739409700B3435A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3C08EE01739409700B3435A /* Build configuration list for PBXNativeTarget "libmagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3C08EE11739409700B3435A /* Debug */,
+				A3C08EE21739409700B3435A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3C08ECA1739409600B3435A /* Project object */;
+}

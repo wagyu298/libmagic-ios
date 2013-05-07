@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>libmagic</string>
+	<key>CFBundleIdentifier</key>
+	<string>net.halfwholescale.libmagicframework</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>CFBundleExecutable</key>
+	<string>libmagic</string>
+	<key>CFBundleGetInfoString</key>
+	<string>libmagic</string>
+	<key>NSPrincipalClass</key>
+	<string></string>
+	<key>CFBundlePackageType</key>
+	<string>FMWK</string>
+	<key>CFBundleIconFile</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright (c) Ian F. Darwin 1986-1995. Software written by Ian F. Darwin and others; maintained 1995-present by Christos Zoulas and others. iOS framework created by wagyu298.</string>
+	<key>CFBundleShortVersionString</key>
+	<string>5.11</string>
+</dict>
+</plist>

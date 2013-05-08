@@ -58,16 +58,16 @@ You can generate libmagic-ios Xcode project from the patch file and original fil
 
 2. Download file-5.14.tar.gz from http://darwinsys.com/file/ and extract tarball to PROJECT_ROOT_DIR (like the following directory structure).
 
-	libmagic-ios/
-	    README
-	    libmagic
-	    ..
-	    file-5.14
+		libmagic-ios/
+		    README
+		    libmagic
+		    ..
+		    file-5.14
 
 3. Apply file-5.14-ios.diff
 
-	cd file-5.14
-	patch -p1 < ../file-5.14-ios.diff
+		cd file-5.14
+		patch -p1 < ../file-5.14-ios.diff
 
 4. Open the libmagic.framework project file with Xcode. Change build scheme to libmagic.framework build it.
 

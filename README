@@ -1,4 +1,4 @@
-libmagic iOS static library framework.
+libmagic static library framework for iOS.
 
 
 Description
@@ -14,7 +14,8 @@ details about the file command.
 Usage
 *****
 
-1. Download libmagic.framework.5.14.zip from Github.
+1. Download libmagic.framework.5.14.zip from SourceForge.net
+(https://sourceforge.net/projects/libmagic-ios/files/).
 
 2. Open or create your iOS application project with Xcode.
 
@@ -66,10 +67,6 @@ file. See magicios.m for more details.
 Building Framework
 ******************
 
-To build libmagic.framework, you must have GitHub repository
- download file-5.14.tar.gz from
-http://darwinsys.com/file/.
-
 Github repository includes the patch file of libmagic-ios.
 You can generate libmagic-ios Xcode project from the patch file and
 original file utility tarball.
@@ -91,7 +88,8 @@ structure).
     cd file-5.14
     patch -p1 < ../file-5.14-ios.diff
 
-4. Open the libmagic.framework project file with Xcode and build it.
+4. Open the libmagic.framework project file with Xcode. Change
+build scheme to libmagic.framework build it.
 
 
 License

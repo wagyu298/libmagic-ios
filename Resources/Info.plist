@@ -27,6 +27,6 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright (c) Ian F. Darwin 1986-1995. Software written by Ian F. Darwin and others; maintained 1995-present by Christos Zoulas and others. iOS framework created by wagyu298.</string>
 	<key>CFBundleShortVersionString</key>
-	<string>5.11</string>
+	<string>5.14</string>
 </dict>
 </plist>

@@ -1,0 +1,38 @@
+--- file-5.14/src/file.h.orig	2013-02-19 00:40:59.000000000 +0900
++++ file-5.14/src/file.h	2013-05-08 03:19:43.000000000 +0900
+@@ -34,7 +34,7 @@
+ #define __file_h__
+ 
+ #ifdef HAVE_CONFIG_H
+-#include <config.h>
++#include "config.h"
+ #endif
+ 
+ #ifdef WIN32
+--- file-5.14/src/magic.c.orig	2013-01-12 01:43:09.000000000 +0900
++++ file-5.14/src/magic.c	2013-05-08 03:21:04.000000000 +0900
+@@ -208,7 +208,11 @@ magic_getpath(const char *magicfile, int
+ 	if (magicfile != NULL)
+ 		return magicfile;
+ 
++#ifdef __IPHONE_OS_VERSION_MIN_REQUIRED
++	return action == FILE_LOAD ? magic_ios_get_default_magic() : magic_ios_get_plain_magic();
++#else
+ 	return action == FILE_LOAD ? get_default_magic() : MAGIC;
++#endif
+ }
+ 
+ public struct magic_set *
+--- file-5.14/src/magic.h.orig	2013-03-22 02:52:42.000000000 +0900
++++ file-5.14/src/magic.h	2013-05-08 03:20:12.000000000 +0900
+@@ -104,4 +104,10 @@ int magic_errno(magic_t);
+ };
+ #endif
+ 
++#ifdef __IPHONE_OS_VERSION_MIN_REQUIRED
++const char *magic_ios_get_plain_magic(void);
++const char *magic_ios_get_default_magic(void);
++int magic_ios_compile(void);
++#endif
++
+ #endif /* _MAGIC_H */

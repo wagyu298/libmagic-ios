@@ -14,7 +14,7 @@ details about the file command.
 Usage
 *****
 
-1. libmagic.framework.5.11.zip from Github.
+1. Download libmagic.framework.5.14.zip from Github.
 
 2. Open or create your iOS application project with Xcode.
 
@@ -67,7 +67,7 @@ Building Framework
 ******************
 
 To build libmagic.framework, you must have GitHub repository
- download file-5.11.tar.gz from
+ download file-5.14.tar.gz from
 http://darwinsys.com/file/.
 
 Github repository includes the patch file of libmagic-ios.
@@ -76,7 +76,7 @@ original file utility tarball.
 
 1. Clone or fetch Xcode project from libmagic-ios Github repository.
 
-2. Download file-5.11.tar.gz from http://darwinsys.com/file/ and
+2. Download file-5.14.tar.gz from http://darwinsys.com/file/ and
 extract tarball to PROJECT_ROOT_DIR (like the following directory
 structure).
 
@@ -84,12 +84,12 @@ structure).
        README
        libmagic
        ..
-       file-5.11
+       file-5.14
 
-3. Apply file-5.11-ios.diff
+3. Apply file-5.14-ios.diff
 
-    cd file-5.11
-    patch -p1 < ../file-5.11-ios.diff
+    cd file-5.14
+    patch -p1 < ../file-5.14-ios.diff
 
 4. Open the libmagic.framework project file with Xcode and build it.
 

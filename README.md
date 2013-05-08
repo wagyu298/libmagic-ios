@@ -41,9 +41,9 @@ Omit compiled magic
 You can use libmagic-ios without the compiled magic file.
 In this case, you can omit the step 5 of the usage (magic_ios_compile function call at didFinishLaunchingWithOptions) and use the result of magic_ios_get_plain_magic function to the second argument of magic_load.
 
-		magic_t magic = magic_open(MAGIC_NONE);
-		magic_load(magic, magic_ios_get_plain_magic());
-		// ...
+	magic_t magic = magic_open(MAGIC_NONE);
+	magic_load(magic, magic_ios_get_plain_magic());
+	// ...
 
 magic_ios_get_plain_magic function returns the path of bundled plain magic file. See magicios.m for more details.
 
